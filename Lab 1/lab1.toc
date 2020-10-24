@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}The Step Response}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Step 1}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Step 2}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Step 3}{7}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Step 4}{8}{subsection.1.4}%
+\contentsline {section}{\numberline {2}The Frequency Response}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Step 1}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Step 2}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Step 3}{9}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Step 4}{10}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Step 5}{10}{subsection.2.5}%
+\contentsline {section}{\numberline {3}References}{11}{section.3}%
