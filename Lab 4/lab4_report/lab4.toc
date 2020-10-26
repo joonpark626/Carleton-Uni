@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Purpose}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Experiment Overview}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Chebyshev Filter Design Project}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Design Requirements}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Overall Electronic Filter Circuit}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}$H_A(S)$ Parameters}{10}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}$H_B(S)$ Parameters}{12}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Simulation}{16}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Simulated Filter Circuit}{16}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Standard Simulated Filter Circuit}{20}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Verification}{24}{section.3}%
+\contentsline {section}{\numberline {4}Discussion}{25}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{26}{section.5}%
+\contentsline {section}{\numberline {6}References}{27}{section.6}%
+\contentsline {section}{\numberline {7}Appendix}{28}{section.7}%

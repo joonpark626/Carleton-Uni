@@ -1,0 +1,768 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.9)  11 AUG 2020 18:21
+entering extended mode
+**./lab1.tex
+(lab1.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+("D:\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("D:\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen137
+))
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count175
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count176
+\leftroot@=\count177
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count178
+\DOTSCASE@=\count179
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count180
+\c@MaxMatrixCols=\count181
+\dotsspace@=\muskip16
+\c@parentequation=\count182
+\dspbrk@lvl=\count183
+\tag@help=\toks17
+\row@=\count184
+\column@=\count185
+\maxfields@=\count186
+\andhelp@=\toks18
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks19
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen146
+\captionmargin@=\dimen147
+\captionwidth=\dimen148
+\caption@tempdima=\dimen149
+\caption@indent=\dimen150
+\caption@parindent=\dimen151
+\caption@hangindent=\dimen152
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count187
+\c@continuedfloat=\count188
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("D:\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("D:\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks21
+
+("D:\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("D:\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box47
+) (lab1.aux)
+\openout1 = `lab1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+("D:\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count193
+\scratchdimen=\dimen161
+\scratchbox=\box48
+\nofMPsegments=\count194
+\nofMParguments=\count195
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen162
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
+\everyMPtoPDFconversion=\toks23
+) ("D:\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+
+{C:/Users/ghass/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (lab1.toc)
+\tf@toc=\write3
+\openout3 = `lab1.toc'.
+
+ [1] (lab1.lot)
+\tf@lot=\write4
+\openout4 = `lab1.lot'.
+
+ [2] (lab1.lof)
+\tf@lof=\write5
+\openout5 = `lab1.lof'.
+
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 65--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+<./img/structures_of_bjt.png, id=20, 431.81325pt x 345.08925pt>
+File: ./img/structures_of_bjt.png Graphic file (type png)
+<use ./img/structures_of_bjt.png>
+Package pdftex.def Info: ./img/structures_of_bjt.png  used on input line 84.
+(pdftex.def)             Requested size: 234.8775pt x 187.70921pt.
+[4 <./img/structures_of_bjt.png>]
+<./img/I-V_characterization_curve.png, id=26, 425.79076pt x 239.6955pt>
+File: ./img/I-V_characterization_curve.png Graphic file (type png)
+<use ./img/I-V_characterization_curve.png>
+Package pdftex.def Info: ./img/I-V_characterization_curve.png  used on input li
+ne 95.
+(pdftex.def)             Requested size: 328.82707pt x 185.11105pt.
+<./img/I-V_diodelike_curve.png, id=27, 401.0985pt x 275.22826pt>
+File: ./img/I-V_diodelike_curve.png Graphic file (type png)
+<use ./img/I-V_diodelike_curve.png>
+Package pdftex.def Info: ./img/I-V_diodelike_curve.png  used on input line 107.
+
+(pdftex.def)             Requested size: 281.85587pt x 193.40599pt.
+ [5 <./img/I-V_characterization_curve.png> <./img/I-V_diodelike_curve.png>] [6]
+<./img/d1-part1.png, id=38, 738.3585pt x 211.992pt>
+File: ./img/d1-part1.png Graphic file (type png)
+<use ./img/d1-part1.png>
+Package pdftex.def Info: ./img/d1-part1.png  used on input line 141.
+(pdftex.def)             Requested size: 469.75502pt x 134.8722pt.
+<./img/d1-part1.1.png, id=39, 145.7445pt x 73.4745pt>
+File: ./img/d1-part1.1.png Graphic file (type png)
+<use ./img/d1-part1.1.png>
+Package pdftex.def Info: ./img/d1-part1.1.png  used on input line 151.
+(pdftex.def)             Requested size: 187.89914pt x 94.73203pt.
+<./img/d1-part1.2.png, id=40, 145.7445pt x 73.4745pt>
+File: ./img/d1-part1.2.png Graphic file (type png)
+<use ./img/d1-part1.2.png>
+Package pdftex.def Info: ./img/d1-part1.2.png  used on input line 157.
+(pdftex.def)             Requested size: 187.89914pt x 94.73203pt.
+ [7 <./img/d1-part1.png> <./img/d1-part1.1.png> <./img/d1-part1.2.png>]
+<./img/prelab1.png, id=48, 437.83575pt x 451.08525pt>
+File: ./img/prelab1.png Graphic file (type png)
+<use ./img/prelab1.png>
+Package pdftex.def Info: ./img/prelab1.png  used on input line 174.
+(pdftex.def)             Requested size: 469.75502pt x 483.99176pt.
+<./img/prelab2.png, id=49, 631.76025pt x 254.1495pt>
+File: ./img/prelab2.png Graphic file (type png)
+<use ./img/prelab2.png>
+Package pdftex.def Info: ./img/prelab2.png  used on input line 175.
+(pdftex.def)             Requested size: 469.75502pt x 188.97902pt.
+<./img/prelab3.png, id=50, 607.67026pt x 389.0535pt>
+File: ./img/prelab3.png Graphic file (type png)
+<use ./img/prelab3.png>
+Package pdftex.def Info: ./img/prelab3.png  used on input line 176.
+(pdftex.def)             Requested size: 469.75502pt x 300.7594pt.
+<./img/prelab4.png, id=51, 557.6835pt x 274.626pt>
+File: ./img/prelab4.png Graphic file (type png)
+<use ./img/prelab4.png>
+Package pdftex.def Info: ./img/prelab4.png  used on input line 177.
+(pdftex.def)             Requested size: 469.75502pt x 231.33377pt.
+<./img/prelab5.png, id=52, 576.9555pt x 290.2845pt>
+File: ./img/prelab5.png Graphic file (type png)
+<use ./img/prelab5.png>
+Package pdftex.def Info: ./img/prelab5.png  used on input line 178.
+(pdftex.def)             Requested size: 469.75502pt x 236.35165pt.
+ [8]
+Overfull \vbox (59.4574pt too high) has occurred while \output is active []
+
+
+[9 <./img/prelab1.png> <./img/prelab2.png>] [10 <./img/prelab3.png> <./img/prel
+ab4.png>] [11 <./img/prelab5.png>]
+<./img/d1-part2-circuit.png, id=70, 317.38576pt x 322.806pt>
+File: ./img/d1-part2-circuit.png Graphic file (type png)
+<use ./img/d1-part2-circuit.png>
+Package pdftex.def Info: ./img/d1-part2-circuit.png  used on input line 187.
+(pdftex.def)             Requested size: 281.85587pt x 286.6758pt.
+<./img/d1-part2-DcOperatingSweep.png, id=71, 474.573pt x 400.49625pt>
+File: ./img/d1-part2-DcOperatingSweep.png Graphic file (type png)
+<use ./img/d1-part2-DcOperatingSweep.png>
+Package pdftex.def Info: ./img/d1-part2-DcOperatingSweep.png  used on input lin
+e 195.
+(pdftex.def)             Requested size: 258.36668pt x 218.03696pt.
+ [12 <./img/d1-part2-circuit.png> <./img/d1-part2-DcOperatingSweep.png>]
+<./img/part2-data-measured.png, id=78, 906.9885pt x 304.7385pt>
+File: ./img/part2-data-measured.png Graphic file (type png)
+<use ./img/part2-data-measured.png>
+Package pdftex.def Info: ./img/part2-data-measured.png  used on input line 205.
+
+(pdftex.def)             Requested size: 469.75502pt x 157.83253pt.
+<./img/vce_vs_ic.png, id=79, 361.8318pt x 217.7736pt>
+File: ./img/vce_vs_ic.png Graphic file (type png)
+<use ./img/vce_vs_ic.png>
+Package pdftex.def Info: ./img/vce_vs_ic.png  used on input line 211.
+(pdftex.def)             Requested size: 375.80544pt x 226.1934pt.
+ [13 <./img/part2-data-measured.png> <./img/vce_vs_ic.png>]
+<./img/vce_vs_vbe.png, id=85, 361.8318pt x 217.7736pt>
+File: ./img/vce_vs_vbe.png Graphic file (type png)
+<use ./img/vce_vs_vbe.png>
+Package pdftex.def Info: ./img/vce_vs_vbe.png  used on input line 220.
+(pdftex.def)             Requested size: 375.80544pt x 226.1934pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--229
+
+ []
+
+[14 <./img/vce_vs_vbe.png>]
+<./img/vce_vs_ic_slope.png, id=90, 362.7954pt x 220.1826pt>
+File: ./img/vce_vs_ic_slope.png Graphic file (type png)
+<use ./img/vce_vs_ic_slope.png>
+Package pdftex.def Info: ./img/vce_vs_ic_slope.png  used on input line 237.
+(pdftex.def)             Requested size: 375.80544pt x 228.08409pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--249
+
+ []
+
+[15 <./img/vce_vs_ic_slope.png>]
+<./img/prelab6.png, id=96, 545.6385pt x 708.246pt>
+File: ./img/prelab6.png Graphic file (type png)
+<use ./img/prelab6.png>
+Package pdftex.def Info: ./img/prelab6.png  used on input line 252.
+(pdftex.def)             Requested size: 469.75502pt x 609.76053pt.
+<./img/prelab7.png, id=97, 574.5465pt x 62.03175pt>
+File: ./img/prelab7.png Graphic file (type png)
+<use ./img/prelab7.png>
+Package pdftex.def Info: ./img/prelab7.png  used on input line 253.
+(pdftex.def)             Requested size: 469.75502pt x 50.71869pt.
+<./img/prelab8.png, id=98, 558.28575pt x 575.14874pt>
+File: ./img/prelab8.png Graphic file (type png)
+<use ./img/prelab8.png>
+Package pdftex.def Info: ./img/prelab8.png  used on input line 254.
+(pdftex.def)             Requested size: 469.75502pt x 483.9466pt.
+<./img/prelab9.png, id=99, 572.1375pt x 76.48575pt>
+File: ./img/prelab9.png Graphic file (type png)
+<use ./img/prelab9.png>
+Package pdftex.def Info: ./img/prelab9.png  used on input line 255.
+(pdftex.def)             Requested size: 469.75502pt x 62.79922pt.
+<./img/prelab10.png, id=100, 569.7285pt x 662.475pt>
+File: ./img/prelab10.png Graphic file (type png)
+<use ./img/prelab10.png>
+Package pdftex.def Info: ./img/prelab10.png  used on input line 256.
+(pdftex.def)             Requested size: 469.75502pt x 546.22516pt.
+<./img/prelab11.png, id=101, 734.745pt x 592.614pt>
+File: ./img/prelab11.png Graphic file (type png)
+<use ./img/prelab11.png>
+Package pdftex.def Info: ./img/prelab11.png  used on input line 257.
+(pdftex.def)             Requested size: 469.75502pt x 378.89188pt.
+<./img/prelab12.png, id=102, 556.32843pt x 562.35094pt>
+File: ./img/prelab12.png Graphic file (type png)
+<use ./img/prelab12.png>
+Package pdftex.def Info: ./img/prelab12.png  used on input line 258.
+(pdftex.def)             Requested size: 469.75502pt x 474.85141pt.
+
+Overfull \vbox (46.96584pt too high) has occurred while \output is active []
+
+
+[16 <./img/prelab6.png> <./img/prelab7.png>] [17 <./img/prelab8.png> <./img/pre
+lab9.png>] [18 <./img/prelab10.png>] [19 <./img/prelab11.png>] [20 <./img/prela
+b12.png>]
+<./img/d1-part3-circuit-npn-1_1.png, id=123, 277.63725pt x 275.8305pt>
+File: ./img/d1-part3-circuit-npn-1_1.png Graphic file (type png)
+<use ./img/d1-part3-circuit-npn-1_1.png>
+Package pdftex.def Info: ./img/d1-part3-circuit-npn-1_1.png  used on input line
+ 266.
+(pdftex.def)             Requested size: 267.7638pt x 266.03166pt.
+<./img/d1-part3-DcOperatingSweep.png, id=124, 476.37975pt x 401.70074pt>
+File: ./img/d1-part3-DcOperatingSweep.png Graphic file (type png)
+<use ./img/d1-part3-DcOperatingSweep.png>
+Package pdftex.def Info: ./img/d1-part3-DcOperatingSweep.png  used on input lin
+e 273.
+(pdftex.def)             Requested size: 281.85587pt x 237.66948pt.
+ [21 <./img/d1-part3-circuit-npn-1_1.png> <./img/d1-part3-DcOperatingSweep.png>
+]
+<./img/part3-data-measured-npn-1_1.png, id=130, 627.5445pt x 290.2845pt>
+File: ./img/part3-data-measured-npn-1_1.png Graphic file (type png)
+<use ./img/part3-data-measured-npn-1_1.png>
+Package pdftex.def Info: ./img/part3-data-measured-npn-1_1.png  used on input l
+ine 286.
+(pdftex.def)             Requested size: 469.75502pt x 217.29646pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--288
+
+ []
+
+[22 <./img/part3-data-measured-npn-1_1.png>]
+<./img/iout_vs_rl_1_1.png, id=135, 362.3136pt x 217.7736pt>
+File: ./img/iout_vs_rl_1_1.png Graphic file (type png)
+<use ./img/iout_vs_rl_1_1.png>
+Package pdftex.def Info: ./img/iout_vs_rl_1_1.png  used on input line 297.
+(pdftex.def)             Requested size: 375.80544pt x 225.88106pt.
+<./img/iout_vs_vout.png, id=136, 362.3136pt x 217.7736pt>
+File: ./img/iout_vs_vout.png Graphic file (type png)
+<use ./img/iout_vs_vout.png>
+Package pdftex.def Info: ./img/iout_vs_vout.png  used on input line 304.
+(pdftex.def)             Requested size: 375.80544pt x 225.88106pt.
+<./img/vout_vs_iout_slope.png, id=137, 361.8318pt x 217.7736pt>
+File: ./img/vout_vs_iout_slope.png Graphic file (type png)
+<use ./img/vout_vs_iout_slope.png>
+Package pdftex.def Info: ./img/vout_vs_iout_slope.png  used on input line 313.
+(pdftex.def)             Requested size: 375.80544pt x 226.1934pt.
+ [23 <./img/iout_vs_rl_1_1.png> <./img/iout_vs_vout.png>] [24 <./img/vout_vs_io
+ut_slope.png>]
+<./img/d1-part3-circuit-npn-1_2.png, id=151, 345.54094pt x 356.83313pt>
+File: ./img/d1-part3-circuit-npn-1_2.png Graphic file (type png)
+<use ./img/d1-part3-circuit-npn-1_2.png>
+Package pdftex.def Info: ./img/d1-part3-circuit-npn-1_2.png  used on input line
+ 328.
+(pdftex.def)             Requested size: 258.36668pt x 266.8129pt.
+<./img/d1-part3.1-DcOperatingSweep.png, id=152, 476.37975pt x 401.70074pt>
+File: ./img/d1-part3.1-DcOperatingSweep.png Graphic file (type png)
+<use ./img/d1-part3.1-DcOperatingSweep.png>
+Package pdftex.def Info: ./img/d1-part3.1-DcOperatingSweep.png  used on input l
+ine 335.
+(pdftex.def)             Requested size: 291.2458pt x 245.58873pt.
+ [25 <./img/d1-part3-circuit-npn-1_2.png> <./img/d1-part3.1-DcOperatingSweep.pn
+g>]
+<./img/part3-data-measured-npn-1_2.png, id=158, 627.5445pt x 290.2845pt>
+File: ./img/part3-data-measured-npn-1_2.png Graphic file (type png)
+<use ./img/part3-data-measured-npn-1_2.png>
+Package pdftex.def Info: ./img/part3-data-measured-npn-1_2.png  used on input l
+ine 348.
+(pdftex.def)             Requested size: 469.75502pt x 217.29646pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--350
+
+ []
+
+[26 <./img/part3-data-measured-npn-1_2.png>]
+<./img/iout_vs_rl_1_2.png, id=163, 362.3136pt x 217.7736pt>
+File: ./img/iout_vs_rl_1_2.png Graphic file (type png)
+<use ./img/iout_vs_rl_1_2.png>
+Package pdftex.def Info: ./img/iout_vs_rl_1_2.png  used on input line 360.
+(pdftex.def)             Requested size: 375.80544pt x 225.88106pt.
+ [27 <./img/iout_vs_rl_1_2.png>]
+<./img/d1-part3-circuit-npn_pnp-1_1.png, id=168, 502.12593pt x 449.42906pt>
+File: ./img/d1-part3-circuit-npn_pnp-1_1.png Graphic file (type png)
+<use ./img/d1-part3-circuit-npn_pnp-1_1.png>
+Package pdftex.def Info: ./img/d1-part3-circuit-npn_pnp-1_1.png  used on input 
+line 370.
+(pdftex.def)             Requested size: 281.85587pt x 252.28888pt.
+File: ./img/d1-part3-DcOperatingSweep.png Graphic file (type png)
+<use ./img/d1-part3-DcOperatingSweep.png>
+Package pdftex.def Info: ./img/d1-part3-DcOperatingSweep.png  used on input lin
+e 377.
+(pdftex.def)             Requested size: 300.64291pt x 253.51411pt.
+
+[28 <./img/d1-part3-circuit-npn_pnp-1_1.png>]
+<./img/part3-data-measured-npn_pnp-1_1.png, id=173, 627.5445pt x 290.2845pt>
+File: ./img/part3-data-measured-npn_pnp-1_1.png Graphic file (type png)
+<use ./img/part3-data-measured-npn_pnp-1_1.png>
+Package pdftex.def Info: ./img/part3-data-measured-npn_pnp-1_1.png  used on inp
+ut line 390.
+(pdftex.def)             Requested size: 469.75502pt x 217.29646pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--392
+
+ []
+
+[29 <./img/part3-data-measured-npn_pnp-1_1.png>]
+<./img/iout_vs_rl_1_1_npnp.png, id=178, 361.8318pt x 217.7736pt>
+File: ./img/iout_vs_rl_1_1_npnp.png Graphic file (type png)
+<use ./img/iout_vs_rl_1_1_npnp.png>
+Package pdftex.def Info: ./img/iout_vs_rl_1_1_npnp.png  used on input line 402.
+
+(pdftex.def)             Requested size: 375.80544pt x 226.1934pt.
+ [30 <./img/iout_vs_rl_1_1_npnp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 410--413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--422
+
+ []
+
+<./img/part4-a1.png, id=184, 385.44pt x 295.85532pt>
+File: ./img/part4-a1.png Graphic file (type png)
+<use ./img/part4-a1.png>
+Package pdftex.def Info: ./img/part4-a1.png  used on input line 427.
+(pdftex.def)             Requested size: 375.80544pt x 288.46002pt.
+[31 <./img/part4-a1.png>]
+<./img/part4-DcOperatingSweep.png, id=190, 593.96906pt x 500.62032pt>
+File: ./img/part4-DcOperatingSweep.png Graphic file (type png)
+<use ./img/part4-DcOperatingSweep.png>
+Package pdftex.def Info: ./img/part4-DcOperatingSweep.png  used on input line 4
+36.
+(pdftex.def)             Requested size: 258.36668pt x 217.76808pt.
+<./img/part4-a2.png, id=191, 389.20406pt x 305.64188pt>
+File: ./img/part4-a2.png Graphic file (type png)
+<use ./img/part4-a2.png>
+Package pdftex.def Info: ./img/part4-a2.png  used on input line 445.
+(pdftex.def)             Requested size: 281.85587pt x 221.34915pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--448
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--448
+
+ []
+
+[32 <./img/part4-DcOperatingSweep.png> <./img/part4-a2.png>]
+<./img/part4-b-circuit.png, id=197, 577.40718pt x 338.01282pt>
+File: ./img/part4-b-circuit.png Graphic file (type png)
+<use ./img/part4-b-circuit.png>
+Package pdftex.def Info: ./img/part4-b-circuit.png  used on input line 455.
+(pdftex.def)             Requested size: 375.80544pt x 220.00485pt.
+ [33 <./img/part4-b-circuit.png>]
+<./img/part4-c-DcOperatingSweep.png, id=202, 593.96906pt x 499.8675pt>
+File: ./img/part4-c-DcOperatingSweep.png Graphic file (type png)
+<use ./img/part4-c-DcOperatingSweep.png>
+Package pdftex.def Info: ./img/part4-c-DcOperatingSweep.png  used on input line
+ 470.
+(pdftex.def)             Requested size: 258.36668pt x 217.4406pt.
+<./img/part4-c-results.png, id=203, 869.49844pt x 418.56375pt>
+File: ./img/part4-c-results.png Graphic file (type png)
+<use ./img/part4-c-results.png>
+Package pdftex.def Info: ./img/part4-c-results.png  used on input line 478.
+(pdftex.def)             Requested size: 469.75502pt x 226.13602pt.
+ [34 <./img/part4-c-DcOperatingSweep.png> <./img/part4-c-results.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--521
+
+ []
+
+[35]
+<./img/part4-e-circuit-2ma.png, id=212, 816.80156pt x 451.6875pt>
+File: ./img/part4-e-circuit-2ma.png Graphic file (type png)
+<use ./img/part4-e-circuit-2ma.png>
+Package pdftex.def Info: ./img/part4-e-circuit-2ma.png  used on input line 534.
+
+(pdftex.def)             Requested size: 375.80544pt x 207.82011pt.
+<./img/part4-e-simSettings-2ma.png, id=213, 593.96906pt x 502.12593pt>
+File: ./img/part4-e-simSettings-2ma.png Graphic file (type png)
+<use ./img/part4-e-simSettings-2ma.png>
+Package pdftex.def Info: ./img/part4-e-simSettings-2ma.png  used on input line 
+542.
+(pdftex.def)             Requested size: 281.85587pt x 238.28244pt.
+ [36 <./img/part4-e-circuit-2ma.png> <./img/part4-e-simSettings-2ma.png>]
+<./img/part4-e-data-2ma.png, id=220, 801.59476pt x 1041.8925pt>
+File: ./img/part4-e-data-2ma.png Graphic file (type png)
+<use ./img/part4-e-data-2ma.png>
+Package pdftex.def Info: ./img/part4-e-data-2ma.png  used on input line 551.
+(pdftex.def)             Requested size: 469.75502pt x 610.59369pt.
+
+[37 <./img/part4-e-data-2ma.png>]
+<./img/part4-currentGain-2ma.png, id=225, 496.7358pt x 306.4248pt>
+File: ./img/part4-currentGain-2ma.png Graphic file (type png)
+<use ./img/part4-currentGain-2ma.png>
+Package pdftex.def Info: ./img/part4-currentGain-2ma.png  used on input line 55
+8.
+(pdftex.def)             Requested size: 281.85587pt x 173.87375pt.
+ [38 <./img/part4-currentGain-2ma.png>]
+<./img/part4-e-circuit-0.5ma.png, id=230, 798.73407pt x 422.32782pt>
+File: ./img/part4-e-circuit-0.5ma.png Graphic file (type png)
+<use ./img/part4-e-circuit-0.5ma.png>
+Package pdftex.def Info: ./img/part4-e-circuit-0.5ma.png  used on input line 58
+3.
+(pdftex.def)             Requested size: 469.75502pt x 248.38506pt.
+<./img/part4-e-simSettings-0.5ma.png, id=231, 593.21625pt x 501.37312pt>
+File: ./img/part4-e-simSettings-0.5ma.png Graphic file (type png)
+<use ./img/part4-e-simSettings-0.5ma.png>
+Package pdftex.def Info: ./img/part4-e-simSettings-0.5ma.png  used on input lin
+e 590.
+(pdftex.def)             Requested size: 328.82707pt x 277.92876pt.
+
+[39 <./img/part4-e-circuit-0.5ma.png> <./img/part4-e-simSettings-0.5ma.png>]
+<./img/part4-e-data-0.5ma.png, id=237, 801.59476pt x 1041.8925pt>
+File: ./img/part4-e-data-0.5ma.png Graphic file (type png)
+<use ./img/part4-e-data-0.5ma.png>
+Package pdftex.def Info: ./img/part4-e-data-0.5ma.png  used on input line 599.
+(pdftex.def)             Requested size: 469.75502pt x 610.59369pt.
+
+[40 <./img/part4-e-data-0.5ma.png>]
+<./img/part4-currentGain-0.5ma.png, id=242, 362.3136pt x 217.7736pt>
+File: ./img/part4-currentGain-0.5ma.png Graphic file (type png)
+<use ./img/part4-currentGain-0.5ma.png>
+Package pdftex.def Info: ./img/part4-currentGain-0.5ma.png  used on input line 
+606.
+(pdftex.def)             Requested size: 281.85587pt x 169.41078pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--613
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--613
+
+ []
+
+[41 <./img/part4-currentGain-0.5ma.png>]
+<./img/part4-e-circuit-1ma.png, id=247, 796.47563pt x 401.24907pt>
+File: ./img/part4-e-circuit-1ma.png Graphic file (type png)
+<use ./img/part4-e-circuit-1ma.png>
+Package pdftex.def Info: ./img/part4-e-circuit-1ma.png  used on input line 635.
+
+(pdftex.def)             Requested size: 469.75502pt x 236.64917pt.
+<./img/part4-e-simSettings-1ma.png, id=248, 595.47469pt x 502.12593pt>
+File: ./img/part4-e-simSettings-1ma.png Graphic file (type png)
+<use ./img/part4-e-simSettings-1ma.png>
+Package pdftex.def Info: ./img/part4-e-simSettings-1ma.png  used on input line 
+642.
+(pdftex.def)             Requested size: 328.82707pt x 277.27342pt.
+ [42 <./img/part4-e-circuit-1ma.png> <./img/part4-e-simSettings-1ma.png>]
+<./img/part4-e-data-1ma.png, id=255, 801.59476pt x 1041.8925pt>
+File: ./img/part4-e-data-1ma.png Graphic file (type png)
+<use ./img/part4-e-data-1ma.png>
+Package pdftex.def Info: ./img/part4-e-data-1ma.png  used on input line 651.
+(pdftex.def)             Requested size: 469.75502pt x 610.59369pt.
+ [43 <./img/part4-e-data-1ma.png>]
+<./img/part4-currentGain-1ma.png, id=260, 558.888pt x 342.078pt>
+File: ./img/part4-currentGain-1ma.png Graphic file (type png)
+<use ./img/part4-currentGain-1ma.png>
+Package pdftex.def Info: ./img/part4-currentGain-1ma.png  used on input line 65
+8.
+(pdftex.def)             Requested size: 281.85587pt x 172.51573pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--665
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--665
+
+ []
+
+[44 <./img/part4-currentGain-1ma.png>]
+<./img/hybridpi.png, id=265, 1086.30844pt x 504.38437pt>
+File: ./img/hybridpi.png Graphic file (type png)
+<use ./img/hybridpi.png>
+Package pdftex.def Info: ./img/hybridpi.png  used on input line 688.
+(pdftex.def)             Requested size: 352.31625pt x 163.58434pt.
+ [45 <./img/hybridpi.png>] [46] [47]
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 735--747
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--747
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--747
+
+ []
+
+[49] [50] (lab1.aux) ) 
+Here is how much of TeX's memory you used:
+ 4465 strings out of 480930
+ 69053 string characters out of 2911878
+ 314414 words of memory out of 3000000
+ 20261 multiletter control sequences out of 15000+200000
+ 539068 words of font info for 47 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,12n,45p,414b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\ghass\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcrm1000.pk><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi5.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on lab1.pdf (51 pages, 2711762 bytes).
+PDF statistics:
+ 340 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+

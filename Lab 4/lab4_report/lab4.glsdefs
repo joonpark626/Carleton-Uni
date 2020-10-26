@@ -1,0 +1,30 @@
+\ifglsentryexists{BW}{}%
+{%
+\gls@defglossaryentry{BW}%
+{%
+name={NdFeB},%
+sort={NdFeB},%
+type={acronym},%
+first={Neodymium iron boron (Bw)},%
+firstplural={Neodymium iron boron (Bw)s},%
+text={NdFeB},%
+plural={NdFeBs},%
+description={Neodymium Iron Boron Rare Earth Permanent Magnet},%
+descriptionplural={Neodymium Iron Boron Rare Earth Permanent Magnet},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

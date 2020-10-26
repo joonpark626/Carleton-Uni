@@ -1,0 +1,417 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.9)  25 OCT 2020 20:39
+entering extended mode
+**./lab3.tex
+(lab3.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+("D:\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("D:\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen137
+))
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count175
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count176
+\leftroot@=\count177
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count178
+\DOTSCASE@=\count179
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count180
+\c@MaxMatrixCols=\count181
+\dotsspace@=\muskip16
+\c@parentequation=\count182
+\dspbrk@lvl=\count183
+\tag@help=\toks17
+\row@=\count184
+\column@=\count185
+\maxfields@=\count186
+\andhelp@=\toks18
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks19
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+("D:\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen146
+\captionmargin@=\dimen147
+\captionwidth=\dimen148
+\caption@tempdima=\dimen149
+\caption@indent=\dimen150
+\caption@parindent=\dimen151
+\caption@hangindent=\dimen152
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count187
+\c@continuedfloat=\count188
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("D:\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("D:\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("D:\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("D:\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks21
+
+("D:\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("D:\Programs\MiKTeX 2.9\tex/latex/cancel\cancel.sty"
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+("D:\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box47
+) (lab3.aux)
+\openout1 = `lab3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+("D:\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count193
+\scratchdimen=\dimen161
+\scratchbox=\box48
+\nofMPsegments=\count194
+\nofMParguments=\count195
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen162
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
+\everyMPtoPDFconversion=\toks23
+) ("D:\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+
+{C:/Users/ghass/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (lab3.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+("D:\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+("D:\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write3
+\openout3 = `lab3.toc'.
+
+ [1] (lab3.lot)
+\tf@lot=\write4
+\openout4 = `lab3.lot'.
+
+ [2]
+(lab3.lof)
+\tf@lof=\write5
+\openout5 = `lab3.lof'.
+
+ [3] [4]
+<./img/741_op-amp.png, id=23, 389.65575pt x 201.75375pt>
+File: ./img/741_op-amp.png Graphic file (type png)
+<use ./img/741_op-amp.png>
+Package pdftex.def Info: ./img/741_op-amp.png  used on input line 70.
+(pdftex.def)             Requested size: 455.29901pt x 235.75847pt.
+ [5 <./img/741_op-amp.png>] [6] [7] [8] [9] [10] [11]
+<./img/ssm_gain1.png, id=55, 284.86424pt x 184.89075pt>
+File: ./img/ssm_gain1.png Graphic file (type png)
+<use ./img/ssm_gain1.png>
+Package pdftex.def Info: ./img/ssm_gain1.png  used on input line 371.
+(pdftex.def)             Requested size: 455.29901pt x 295.52933pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--375
+
+ []
+
+[12 <./img/ssm_gain1.png>]
+<./img/ssm_gain1_simplified.png, id=61, 246.9225pt x 117.43875pt>
+File: ./img/ssm_gain1_simplified.png Graphic file (type png)
+<use ./img/ssm_gain1_simplified.png>
+Package pdftex.def Info: ./img/ssm_gain1_simplified.png  used on input line 387
+.
+(pdftex.def)             Requested size: 455.29901pt x 216.55759pt.
+ [13 <./img/ssm_gain1_simplified.png>]
+<./img/ssm_gain2.png, id=67, 296.307pt x 160.1985pt>
+File: ./img/ssm_gain2.png Graphic file (type png)
+<use ./img/ssm_gain2.png>
+Package pdftex.def Info: ./img/ssm_gain2.png  used on input line 438.
+(pdftex.def)             Requested size: 375.80544pt x 203.1956pt.
+ [14 <./img/ssm_gain2.png>] [15]
+<./img/ssm_gain3.png, id=76, 239.6955pt x 225.84375pt>
+File: ./img/ssm_gain3.png Graphic file (type png)
+<use ./img/ssm_gain3.png>
+Package pdftex.def Info: ./img/ssm_gain3.png  used on input line 491.
+(pdftex.def)             Requested size: 455.29901pt x 429.00073pt.
+ [16 <./img/ssm_gain3.png>] [17] [18]
+<./img/1.1.png, id=88, 1089.47025pt x 505.28775pt>
+File: ./img/1.1.png Graphic file (type png)
+<use ./img/1.1.png>
+Package pdftex.def Info: ./img/1.1.png  used on input line 575.
+(pdftex.def)             Requested size: 455.29901pt x 211.16313pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--598
+
+ []
+
+[19 <./img/1.1.png>]
+<./img/c_vs_s.png, id=93, 392.667pt x 154.77824pt>
+File: ./img/c_vs_s.png Graphic file (type png)
+<use ./img/c_vs_s.png>
+Package pdftex.def Info: ./img/c_vs_s.png  used on input line 607.
+(pdftex.def)             Requested size: 455.29901pt x 179.46967pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--614
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--614
+
+ []
+
+[20 <./img/c_vs_s.png>] [21] [22]
+<./img/1.3.png, id=104, 1103.322pt x 492.03825pt>
+File: ./img/1.3.png Graphic file (type png)
+<use ./img/1.3.png>
+Package pdftex.def Info: ./img/1.3.png  used on input line 737.
+(pdftex.def)             Requested size: 469.75502pt x 209.49263pt.
+ [23 <./img/1.3.png>]
+<./img/2.2.png, id=109, 1098.504pt x 495.0495pt>
+File: ./img/2.2.png Graphic file (type png)
+<use ./img/2.2.png>
+Package pdftex.def Info: ./img/2.2.png  used on input line 754.
+(pdftex.def)             Requested size: 455.29901pt x 205.17732pt.
+<./img/2.1.png, id=110, 1097.90175pt x 498.663pt>
+File: ./img/2.1.png Graphic file (type png)
+<use ./img/2.1.png>
+Package pdftex.def Info: ./img/2.1.png  used on input line 760.
+(pdftex.def)             Requested size: 455.29901pt x 206.7967pt.
+ [24 <./img/2.2.png> <./img/2.1.png>]
+<./img/3.0.png, id=117, 1101.51524pt x 353.52075pt>
+File: ./img/3.0.png Graphic file (type png)
+<use ./img/3.0.png>
+Package pdftex.def Info: ./img/3.0.png  used on input line 784.
+(pdftex.def)             Requested size: 455.29901pt x 146.12039pt.
+ [25 <./img/3.0.png>]
+<./img/3.1.png, id=122, 1106.33325pt x 304.7385pt>
+File: ./img/3.1.png Graphic file (type png)
+<use ./img/3.1.png>
+Package pdftex.def Info: ./img/3.1.png  used on input line 794.
+(pdftex.def)             Requested size: 455.29901pt x 125.41322pt.
+ [26 <./img/3.1.png>] [27] [28]
+<./img/1.2.png, id=133, 329.43076pt x 322.20375pt>
+File: ./img/1.2.png Graphic file (type png)
+<use ./img/1.2.png>
+Package pdftex.def Info: ./img/1.2.png  used on input line 814.
+(pdftex.def)             Requested size: 390.26196pt x 381.72614pt.
+ [29 <./img/1.2.png>] (lab3.aux) ) 
+Here is how much of TeX's memory you used:
+ 4683 strings out of 480930
+ 66631 string characters out of 2911878
+ 315511 words of memory out of 3000000
+ 20505 multiletter control sequences out of 15000+200000
+ 537115 words of font info for 42 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,13n,45p,553b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\ghass\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.
+pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb><D:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb>
+Output written on lab3.pdf (30 pages, 1426760 bytes).
+PDF statistics:
+ 186 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

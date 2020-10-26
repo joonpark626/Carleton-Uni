@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Introduction}{4}%
+\contentsline {section}{\numberline {2}Prelab}{5}%
+\contentsline {subsection}{\numberline {2.1}DC Analysis}{6}%
+\contentsline {subsection}{\numberline {2.2}AC Analysis}{12}%
+\contentsline {section}{\numberline {3}Additional Manual Questions}{18}%
+\contentsline {section}{\numberline {4}Simulation}{19}%
+\contentsline {subsection}{\numberline {4.1}DC Sweep}{19}%
+\contentsline {subsection}{\numberline {4.2}Transistor Parameters}{20}%
+\contentsline {subsection}{\numberline {4.3}DC Sweep from 0V to 5V}{23}%
+\contentsline {subsection}{\numberline {4.4}Slew Rate}{24}%
+\contentsline {subsection}{\numberline {4.5}Frequency Response}{25}%
+\contentsline {section}{\numberline {5}Conclusion}{27}%
+\contentsline {section}{\numberline {6}References}{28}%
+\contentsline {section}{\numberline {7}Appendix}{29}%

@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}Introduction}{4}%
+\contentsline {subsection}{\numberline {1.1}Purpose}{4}%
+\contentsline {subsection}{\numberline {1.2}Experiment Overview}{4}%
+\contentsline {section}{\numberline {2}Background}{4}%
+\contentsline {subsection}{\numberline {2.1}BJT Construction}{4}%
+\contentsline {subsection}{\numberline {2.2}BJT Operating Regions}{5}%
+\contentsline {subsubsection}{\numberline {2.2.1}Saturation Region}{6}%
+\contentsline {subsubsection}{\numberline {2.2.2}Active Region}{6}%
+\contentsline {subsubsection}{\numberline {2.2.3}Cutoff Region}{6}%
+\contentsline {section}{\numberline {3}BJT DC Characterization}{7}%
+\contentsline {subsection}{\numberline {3.1}Diode-Like Behavior of BJT Junctions, and BJT Type}{7}%
+\contentsline {subsection}{\numberline {3.2}BJT $I_C$ vs. $V_{CE}$ Characteristic Curves -Point-by-Point- Plotting}{9}%
+\contentsline {subsubsection}{\numberline {3.2.1}Prelab Calculations}{9}%
+\contentsline {subsubsection}{\numberline {3.2.2}Experiment}{12}%
+\contentsline {subsection}{\numberline {3.3}The Current Mirror}{16}%
+\contentsline {subsubsection}{\numberline {3.3.1}Prelab Calculations}{16}%
+\contentsline {subsubsection}{\numberline {3.3.2}Experiment: 1:1 NPN Current Multipllier}{21}%
+\contentsline {subsubsection}{\numberline {3.3.3}Experiment: 1:2 NPN Current Multipllier}{25}%
+\contentsline {subsubsection}{\numberline {3.3.4}Experiment: 1:1 NPN-PNP Current Multipllier}{28}%
+\contentsline {section}{\numberline {4}BJT AC Characterization}{31}%
+\contentsline {subsection}{\numberline {4.1}The transistor's h-Parameters and Bandwidth}{31}%
+\contentsline {subsubsection}{\numberline {4.1.1}DC-Biasing Circuit}{31}%
+\contentsline {subsubsection}{\numberline {4.1.2}AC-Coupling of Input and Output Signals}{33}%
+\contentsline {subsubsection}{\numberline {4.1.3}The AC Input Impedance, $h_{ie}$, and the AC Forward Current Gain, $h_{fe}$}{34}%
+\contentsline {subsubsection}{\numberline {4.1.4}The AC Output Admittance, $h_{oe}$, and the AC Reverse, or Feedback, Voltage Ratio, $h_{re}$}{36}%
+\contentsline {subsubsection}{\numberline {4.1.5}The Unity-Gain Bandwidth, $f_T$, and The Beta Cut-Off Frequency, $f_{\beta }$}{36}%
+\contentsline {subsection}{\numberline {4.2}The BJT High-Frequency Hybrid-Pi Model}{45}%
+\contentsline {subsubsection}{\numberline {4.2.1}Calculations given $I_C$ = 2 mA}{46}%
+\contentsline {subsubsection}{\numberline {4.2.2}Calculations given $I_C$ = 0.5 mA}{47}%
+\contentsline {subsubsection}{\numberline {4.2.3}Calculations given $I_C$ = 1 mA}{48}%
+\contentsline {section}{\numberline {5}Conclusion}{49}%
+\contentsline {section}{\numberline {6}References}{50}%

@@ -1,0 +1,36 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Different Structures of BJT [1]\relax }}{4}%
+\contentsline {figure}{\numberline {2}{\ignorespaces I-V Curves of a BJT Sweeping $V_{CE}$ for different $I_B$ [1]\relax }}{5}%
+\contentsline {figure}{\numberline {3}{\ignorespaces I-V Curves of a BJT Sweeping $V_{BE}$ for a fixed $V_{CE}$ [1]\relax }}{5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces The Use of DVM to Measure Junction Voltages\relax }}{7}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Test Circuit\relax }}{12}%
+\contentsline {figure}{\numberline {6}{\ignorespaces DC Operating Sweep Simulation Settings\relax }}{12}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Collector-Emitter Voltage vs. Collector Current\relax }}{13}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Collector-Emitter Voltage vs. Base-Emitter Voltage\relax }}{14}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Collector-Emitter Voltage vs. Collector Current in the Active Region\relax }}{15}%
+\contentsline {figure}{\numberline {10}{\ignorespaces The 1:1 Ratio NPN Current Mirror Circuit\relax }}{21}%
+\contentsline {figure}{\numberline {11}{\ignorespaces The 1:1 Ratio NPN DC Operating Sweep Simulation Settings\relax }}{21}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Load Resistor vs. Output Current for 1:1 Ratio NPN\relax }}{23}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Output Current vs. Output Voltage for 1:1 Ratio NPN\relax }}{23}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Output Voltage vs. Output Current in the Active Region for 1:1 Ratio NPN\relax }}{24}%
+\contentsline {figure}{\numberline {15}{\ignorespaces The 1:2 Ratio NPN Current Mirror Circuit\relax }}{25}%
+\contentsline {figure}{\numberline {16}{\ignorespaces The 1:2 NPN DC Operating Sweep Simulation Settings\relax }}{25}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Load Resistor vs. Output Current for 1:2 Ratio NPN\relax }}{27}%
+\contentsline {figure}{\numberline {18}{\ignorespaces The 1:1 Ratio NPN-PNP Current Mirror Circuit\relax }}{28}%
+\contentsline {figure}{\numberline {19}{\ignorespaces The 1:1 NPN-PNP DC Operating Sweep Simulation Settings\relax }}{28}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Load Resistor vs. Output Current for 1:1 Ratio NPN-PNP\relax }}{30}%
+\contentsline {figure}{\numberline {21}{\ignorespaces DC Bias Circuit for the AC Characterization Tests\relax }}{31}%
+\contentsline {figure}{\numberline {22}{\ignorespaces The Interactive Simulation Settings of the DC Bias Circuit\relax }}{32}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Measured $V_{CE}$ After Adjusting $I_C$ to 2 mA\relax }}{32}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Additional Circuitry Added to The DC Bias Circuit\relax }}{33}%
+\contentsline {figure}{\numberline {25}{\ignorespaces The Interactive Simulation Settings of the Test Circuit\relax }}{34}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Measured Parameters to Calculate Input Impedance and Current Gain\relax }}{34}%
+\contentsline {figure}{\numberline {27}{\ignorespaces The Test Circuit for The Current Gain for $I_C = 2$ mA\relax }}{36}%
+\contentsline {figure}{\numberline {28}{\ignorespaces AC Sweep Simulation Settings for $I_C = 2$ mA\relax }}{36}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Frequency vs. Current Gain with $I_C$ = 2 mA\relax }}{38}%
+\contentsline {figure}{\numberline {30}{\ignorespaces The Test Circuit for The Current Gain for $I_C = 0.50$ mA\relax }}{39}%
+\contentsline {figure}{\numberline {31}{\ignorespaces AC Sweep Simulation Settings for $I_C = 0.50$ mA\relax }}{39}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Frequency vs. Current Gain with $I_C$ = 0.5 mA\relax }}{41}%
+\contentsline {figure}{\numberline {33}{\ignorespaces The Test Circuit for The Current Gain for $I_C = 1$ mA\relax }}{42}%
+\contentsline {figure}{\numberline {34}{\ignorespaces AC Sweep Simulation Settings for $I_C = 1$ mA\relax }}{42}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Frequency vs. Current Gain with $I_C$ = 0.5 mA\relax }}{44}%
+\contentsline {figure}{\numberline {36}{\ignorespaces The High-Frequency Hybrid-Pi Model of a BJT\relax }}{45}%

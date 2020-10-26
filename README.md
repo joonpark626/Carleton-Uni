@@ -1,11 +1,24 @@
-# Carleton-Uni
+# [ELEC3509] Electronics II
 
-:books: My Assignments, Laboratories, and Lab Reports for my Electronics, Computer Systems, and Software courses :fire:
+Introduction to semiconductor devices and ICs.
+DC, AC and switching properties of BJTs.
+Linear amplifiers; bandwidth considerations; two-port analysis.
+Large signal amplifiers; power amplifiers; transformerless circuits.
+Feedback and operational amplifiers; gain, sensitivity, distortion and stability.
+Filter design.
+Oscillators.
 
 ## Table of contents
 
-SYSC 4001: [Operating Systems]()\
-SYSC 4505: [Automatic Control Systems](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-4505)
+Lab 1: [BJT: DC and AC Characterization](/Lab%201)\
+Lab 2: [Amplifier Project](/Lab%202)\
+Lab 3: [741 Op-Amp](/Lab%203)\
+Lab 4: [Active Band-Pass Filter Project](/Lab%204)\
+Lab 5: [Oscillators](/Lab%205)
+
+## Prerequisites
+
+Make sure you have installed [OrCAD](https://www.orcad.com/resources/download-orcad-lite) or [Multisim](https://www.ni.com/en-ca/support/downloads/software-products/download.multisim.html#312060) on your development machine for ***circuit simulation***.
 
 ## Contributing
 
@@ -17,5 +30,5 @@ When contributing to this repository, please **first discuss** the changes you w
 
 ## License
 
-***All rights are reserved*** and this repository is ***not*** Open Source or Free.
-You ***cannot*** modify or redistribute this repository without ***explicit*** permission from the copyright holder.
+ ***All rights are reserved*** and this repository is ***not*** Open Source or Free.
+ You ***cannot*** modify or redistribute this repository without ***explicit*** permission from the copyright holder.

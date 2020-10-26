@@ -1,0 +1,14 @@
+\contentsline {table}{\numberline {1}{\ignorespaces 2N3904 Transistor's Forward and Reverse Biases Voltages\relax }}{7}%
+\contentsline {table}{\numberline {2}{\ignorespaces 2N3906 Transistor's Forward and Reverse Biases Voltages\relax }}{7}%
+\contentsline {table}{\numberline {3}{\ignorespaces Measured $I_C$, $V_{BE}$, and $V_{CE}$ for Different $R_C$ Values\relax }}{13}%
+\contentsline {table}{\numberline {4}{\ignorespaces Measured $I_{OUT}$ and $V_{OUT}$ for Different $R_L$ Values for 1:1 Ratio NPN\relax }}{22}%
+\contentsline {table}{\numberline {5}{\ignorespaces Measured $I_{OUT}$ and $V_{OUT}$ for Different $R_L$ Values for 1:2 Ratio NPN\relax }}{26}%
+\contentsline {table}{\numberline {6}{\ignorespaces Measured $I_{OUT}$ and $V_{OUT}$ for Different $R_L$ Values for 1:1 Ratio NPN-PNP\relax }}{29}%
+\contentsline {table}{\numberline {7}{\ignorespaces Measured Parameters to Calculate AC Input Impedance\relax }}{35}%
+\contentsline {table}{\numberline {8}{\ignorespaces Measured Parameters to Calculate AC Forward Current Gain\relax }}{35}%
+\contentsline {table}{\numberline {9}{\ignorespaces Measured Data to Calculate The Current Gain with $I_C$ = 2 mA\relax }}{37}%
+\contentsline {table}{\numberline {10}{\ignorespaces Measured and Calculated Parameters to Unity Gain Bandwidth\relax }}{38}%
+\contentsline {table}{\numberline {11}{\ignorespaces Measured Data to Calculate The Current Gain with $I_C$ = 0.5 mA\relax }}{40}%
+\contentsline {table}{\numberline {12}{\ignorespaces Measured and Calculated Parameters to Unity Gain Bandwidth\relax }}{41}%
+\contentsline {table}{\numberline {13}{\ignorespaces Measured Data to Calculate The Current Gain with $I_C$ = 1 mA\relax }}{43}%
+\contentsline {table}{\numberline {14}{\ignorespaces Measured and Calculated Parameters to Unity Gain Bandwidth\relax }}{44}%
