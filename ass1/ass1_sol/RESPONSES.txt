@@ -1,0 +1,164 @@
+Part One: Pointers in C
+-----------------------
+
+1) Consider the following C program.
+#include <string.h>
+int main(int argc, char *argv[])
+{
+  char *temp;
+  strcpy(temp, argv[0]);
+  return 0;
+}
+
+Why is the above code incorrect (i.e., likely to crash)?
+
+The pointer temp is not initialized; when it is passed to strcpy, it
+points to some (undefined) location in memory.  Attempting to write to
+that memory may result in a segmentation fault.
+
+
+2) Consider the following C program.
+#include <string.h>
+int main(int argc, char *argv[])
+{
+  char temp[9];
+  strcpy(temp, argv[0]);
+  return 0;
+}
+
+A buffer overflow occurs when the program name is 9 characters long
+(e.g., "12345.exe"). Why?
+
+In C, all strings are null-terminated (they end with the character
+'\0').  Thus the string "12345.exe" takes up 10 bytes of memory,
+overflowing the 9-byte buffer.
+
+
+3) Consider the following C program.
+#include <string.h>
+int main(int argc, char *argv[])
+{
+  char *buffer = "Hello";
+  strcpy(buffer, "World");
+  return 0;
+}
+
+Why does this program crash?
+
+"Hello" is a string constant, thus it will be located in a read-only
+memory segment.  Writing to that location will result in a segmentation fault.
+
+
+4) Consider the following C snippet.
+void myfunc()
+{
+  char b[100];
+  char *buffer = &b[0];
+  strcpy(buffer, "World");
+}
+
+Is this correct?  What's a simpler expression for &b[0]?
+
+This code is correct. &b[0] is equivalent to b, and both point to the
+first element of the array b.
+
+
+5) Consider the following C program.
+#include <stdio.h>
+int main(int argc, char* argv[])
+{
+  printf("%s %s %s\n",*argv, (*(argv+1)) + 2, *(argv+2));
+  return 0;
+}
+
+If this code is executed using the following line, what will be the
+output?
+program1 -n5 abc
+
+Output: program1 5 abc
+
+Explanation: *argv is the first element of the argv array, which is the
+program name.  *(argv+1) and *(argv+2) are the first and second
+arguments, respectively.  (*(argv+1)) + 2 is the string starting from
+the third character of the first argument.
+
+
+6) Consider the following C program.
+#include <stdio.h>
+#include <string.h>
+char *myfunc(char **argv)
+{
+  char buffer[100];
+  strcpy(buffer, "hello");
+  return buffer;
+}
+int main(int argc, char *argv[])
+{
+  char *s = myfunc(argv);
+  printf("%s\n", s);
+}
+
+What's wrong with this?
+
+buffer is an automatic variable allocated on the stack when myfunc is
+executed.  When myfunc terminates, this memory may be reused and its
+contents become undefined.  Never have a function return a pointer to an
+automatic variable!
+
+
+Part Two: Fixing the Bugs
+-------------------------
+
+Understanding the code
+
+  1) Explain why this program uses the exclamation operator with the
+     strcmp() function.
+
+strcmp() returns zero when the strings match, and a non-zero value otherwise
+(check the man page!).  Since in C zero evaluates to false and any non-zero
+value to true, !strcmp() evaluates to true if and only if the strings match.
+
+
+  2) Explain why the 'LENGTH' macro returns the length of an array.
+     Would it work with a pointer to a dynamically allocated array? (Hint:
+     understand sizeof).
+
+The sizeof operator applied to an array returns the size of the array in
+bytes.  sizeof applied to an element of an array returns the size of
+that element in bytes.  Dividing the two quantities yields the number of
+elements in the array.
+
+CAUTION: sizeof applied to a pointer variable that points to an array
+(dynamically allocated or otherwise) gives the size of the pointer, not
+the size of the array!  I.e.:
+int a[10];
+int *b = a;
+/* sizeof (b) != sizeof (a) */
+
+
+Bug hunting
+
+  3) Explain and fix the logical flow bug within the switch statement.
+     (What happens when the -h option is used?)
+
+As originally written, execution for case 'h' falls through to the
+subsequent case (default).  You should insert a 'break;' statement at
+the end of case 'h' since that is not the desired behavior.  Terminating
+the program using exit() or return is also a valid option.
+
+
+  4) Explain and fix the argument parsing error. (Why is entrycount never
+     zero?)
+
+argv[0] is always present; it is the program name.  This is counted by
+the loop, so entryCount is always greater than zero.  To fix this, we
+must increment argv once before the loop.
+
+
+  5) Fix print_result() to print results correctly and in the same order
+     as the words were specified on the command line.  Explain your solution.
+
+Rather than using a while loop that decrements entry_count, we use a for
+loop that increments a temporary variable 'i', which we use to index the
+array.  (The original code always referenced the first element of the
+entries array.)

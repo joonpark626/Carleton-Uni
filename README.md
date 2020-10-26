@@ -1,22 +1,25 @@
-# Carleton-Uni
+# [SYSC4001] Operating Systems
 
-:books: My Assignments, Laboratories, and Lab Reports for my Electronics, Computer Systems, and Software courses :fire:
+Introduction to operating system principles. Processes and threads. CPU scheduling. 
+Managing concurrency: mutual exclusion and synchronization, deadlock and starvation. 
+Managing memory and input/output. Concurrent programming, including interprocess communication in 
+distributed systems.
 
 ## Table of contents
 
-ELEC 3500: [Digital Electronics]()\
-ELEC 3509: [Electronics II]()\
-SYSC 3006: [Computer Organization]()\
-SYSC 4001: [Operating Systems]()\
-SYSC 4505: [Automatic Control Systems](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-4505)
+Assignment 1: [Counting Words]()<br>
+Assignment 2: [Simple Shell]()<br>
+Assignment 3: [POSIX Threads]()<br>
+Assignment 4: [Memory Management]()<br>
+Assignment 5: [I/O and File Systems]()<br>
 
-## Contributing
+## Prerequisites
 
-When contributing to this repository, please **first discuss** the changes you wish to make via issue, email, or any other method with the owners of this repository **before** making a change.
+Make sure you have installed [fedora](https://getfedora.org/) or any other linux development environment on your development machine.
 
 ## Authors
 
-* **Ghassan Arnouk**
+* [**Dr. Thomas Kunz**](http://www.sce.carleton.ca/faculty/kunz.html)
 
 ## License
 

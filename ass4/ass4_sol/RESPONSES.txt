@@ -1,0 +1,73 @@
+ANSWERS
+-------
+
+Q1:  If adjacent free blocks were not combined, then the memory manager would
+not properly use the available space, and some allocations would fail
+needlessly.  For example, if there were two adjacent 10K free blocks, and the
+memory manager did not merge them, it would not know it could place a 15K block
+in that space.
+
+
+Q2: Only myfree() needs to check for adjacent free blocks, as it is the only
+function that creates that scenario.
+
+
+Q3: First-fit is fast and simple. Best-fit keeps large holes large. Worst-fit
+creates few small holes. Next-fit finds free blocks quicker than first-fit, and
+often keeps allocated blocks together.
+
+
+Q4: The largest free block is also the largest block that can be allocated.  A
+strategy that keeps the average high can allocate more data.  Best-fit generally
+performs best, as it uses smaller holes before larger ones, thus keeping the
+maximum free block size large.
+
+
+Q5: The number of small blocks reflects the level of external fragmentation.  It
+shows how much memory is unlikely to be useable.  A strategy that keeps the
+average low is using its data efficiently.  Worst-fit generally performs best,
+as it uses larger holes before smaller ones, thus preventing small holes from
+getting too small.
+
+
+Q6: The system could have a compact() function, which copies each block to an
+address as low as possible.  For example, move the lowest block to 0, the
+next-lowest block right after the first (i.e. block->ptr == block->last->ptr +
+block->last->size).  For each move, the data will need to be copied along with
+it.  After running compact(), there would be only one free block, at the upper
+end of the memory pool.
+
+
+Q7: Compacting memory moves blocks around.  The user's pointers will now point
+to entirely different blocks.  Therefore, the system needs to update these
+pointers in a way that doesn't require the user'ss awareness.  One way is to have
+mymalloc take in a void **, which would be a pointer to the address malloc would
+have returned.  The user would run mymalloc(size,&p), and p would always point
+to the right block, even if the block moved.
+
+
+Q8: Find the correct block.  If there is no correct block, call mymalloc.  If
+the given size is 0, call myfree. If realloc is making the block larger, check
+the next block in the memory list.  If it is allocated, or too small, call
+myfree, and then mymalloc. If realloc is making the block larger, reduce
+block->size.  Check the next block.  If it is allocated, create a new free
+block.  If it is free, increase the size of the net block, and decrease the
+pointer.
+
+
+Q9: Mymalloc always needs to know the strategy, in order to decide which block
+to use.  Myfree may need to know that it is using the next-fit strategy, so it
+can update the next pointer after freeing the previous block and merging it with
+the current next block.  All other functions only care about current block
+status, not how they are selected.
+
+Note: myfree can be implemented in a way that ignores the strategy.  Either
+update next regardless of strategy, or check the net pointer in a way that
+doesn't require that next point to the beginning of a block.
+
+
+Q10: With a linked list, only the initial bytes of each block are tracked.  To
+search for a free block, just look at each block and check the size value.  With
+a bit array implementation, it is necessary to check every byte (or word) in a
+block to know if enough space is free.  Therefore, mymalloc is much more
+efficient for large allocations using a linked list than a bit array.

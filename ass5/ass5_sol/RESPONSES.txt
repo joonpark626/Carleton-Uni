@@ -1,0 +1,142 @@
+ASSIGNMENT 5: I/O and Filesystems
+=================================
+
+ANSWERS
+-------
+
+Q1.  Briefly explain what the following code from bonnie.c does:
+if ((words = read(fd, (char *) buf, Chunk)) == -1) ...
+
+This line attempts to read up to Chunk bytes from the file descriptor fd
+into buf.  Number of bytes read is stored in the variable words, and an
+action is taken if words == -1 (an error occurred).
+
+
+Q2. Is the above an example of a block read or a character read?  What
+is the value of the variable 'words' if the read succeeds?  Fails?
+
+This is a block read, requesting up to Chunk bytes.  words contains the
+number of bytes read (may be less than Chunk) on success and -1 on
+failure.
+
+
+Q3.  Explain the meaning of the flag value (O_CREAT | O_WRONLY |
+O_APPEND) for the POSIX function open().
+
+O_CREAT tells it to create a file if one does not exist.
+O_WRONLY specifies that the file is open for writing only. That is, you
+cannot use read() on this file descriptor.
+O_APPEND specifies that if the file exists, subsequent writes will be
+appended to the end of the file.
+
+
+Q4. Run Bonnie. What is being measured by each test function?
+
+file_fill_char() measures per-character writes
+file_read_rewrite() measures block rewriting (reading followed by writing)
+file_fill_block() measures block writes
+file_read_getc() measures per-character reads
+file_read_chunk() measures block reads
+
+
+Q5. Look at the summary results from the Bonnie run in Q4. Does Bonnie
+measure latency, throughput or something else?  Justify your answer.
+
+Bonnie measures throughput.  The reported metrics are in units of K/sec
+for input/output and /sec, or quantity over time, for seeks. CPU
+utilization is also measured.
+
+
+Q6. Compare character reads with block reads using Bonnie.  Which is
+faster?  Why do you think this is the case?
+
+Block reads are much, much faster than character reads.  This is due to
+the higher system call overhead incurred by per-character reads
+(significantly more system calls have to be made, necessitating context
+switches between the user process and the kernel).
+
+
+Q7. Copy and paste the performance measures output when running Bonnie
+benchmarks in a local directory and again in an NFS-mounted directory.
+Is one kind of disk access noticeably slower over the network, or are
+all tests significantly slower?
+
+NFS mount (your results may differ slightly):
+              -------Sequential Output-------- ---Sequential Input-- --Random--
+              -Per Char- --Block--- -Rewrite-- -Per Char- --Block--- --Seeks---
+Machine    MB K/sec %CPU K/sec %CPU K/sec %CPU K/sec %CPU K/sec %CPU /sec %CPU
+          100  8686 17.8 10541  1.6 11178  2.7 51588 100.0 2310052 101.5 6130.7 12.7
+
+Local directory (your results may differ slightly):
+              -------Sequential Output-------- ---Sequential Input-- --Random--
+              -Per Char- --Block--- -Rewrite-- -Per Char- --Block--- --Seeks---
+Machine    MB K/sec %CPU K/sec %CPU K/sec %CPU K/sec %CPU K/sec %CPU /sec %CPU
+          100 45033 100.0 334630 100.0 701759 100.0 51356 100.0 2303867 101.2 107422.9 166.5
+
+As you can see, sequential output has much better performance on a local
+filesystem vs. an NFS mount.  This is true for both block and character
+writes.  In other words, NFS writes are very expensive!
+
+Note: due to network conditions and machine load,  your
+answers may have been different.
+
+
+Q8. How does Bonnie handle incomplete reads, e.g., due to interruptions
+from signals?  Justify why Bonnie's approach is good or bad for a
+filesystem benchmark program.
+
+Look for example in file_read_chunk().  Bonnie uses a loop to keep
+calling read() if not all of the requested data was received, and it
+does not really check how much data was read (as long as it is > 0).
+This is a good thing, since in a benchmark application we want to test
+the performance of the underlying system, and we don't particularly care
+about the data we are reading.
+
+In general, it's a good idea to put all of your interruptible I/O
+functions inside loops.  Remember, a read() being interrupted by a
+signal and returning incomplete data is NOT a fatal error!
+
+
+Q9. By now you should be very familiar with the self-evaluation test
+harness we provide for the MPs.  Examine the function test_file_read()
+in assignment5_tests.c, which tests your file_read() function from Step 2.
+
+What does this test check for, specifically?  You may want to copy and
+paste the code for this function in your answer, and annotate each
+quit_if or group of related quit_ifs with a comment.
+
+        char b[255],dots[sizeof(b)];
+        int bytes_read,i;
+        setup();
+
+// Test behavior with invalid arguments
+        quit_if(IOERR_INVALID_ARGS !=file_read(HELLO_FILE,0,b,0));
+        quit_if(IOERR_INVALID_ARGS !=file_read(HELLO_FILE,0,NULL,sizeof(b)));
+        quit_if(IOERR_INVALID_ARGS !=file_read(HELLO_FILE,-1,b,sizeof(b)));
+        quit_if(IOERR_INVALID_ARGS !=file_read(NULL,0,b,sizeof(b)));
+
+// Test behavior with invalid path
+        quit_if(IOERR_INVALID_PATH !=file_read(NO_SUCH_FILE,0,b,sizeof(b)));
+
+// Test basic file reading
+        bytes_read=file_read(HELLO_FILE,0,b,sizeof(b));
+        quit_if(bytes_read!=5);
+        quit_if( strncmp("Hello",b,5) );
+
+// Test seek (reading from an offset)
+        bytes_read=file_read(HELLO_FILE,1,b,sizeof(b));
+        quit_if(bytes_read!=4);
+        quit_if(strncmp("ello",b,4));
+
+// Test invalid seek
+        bytes_read=file_read(HELLO_FILE,-1,b,sizeof(b));
+        quit_if(bytes_read>=0);
+
+// Test reading the entire big buffer
+        for(i=0;i<sizeof(dots);i++) { b[i]=dots[i]= i==sizeof(dots)-1 ?  '\0' : '.';}
+        bytes_read=file_read(BIG_FILE,1,b,sizeof(b));
+        quit_if(bytes_read!=sizeof(b));
+        quit_if(! memcmp(b,dots,sizeof(b)));
+
+        return 0;
+
