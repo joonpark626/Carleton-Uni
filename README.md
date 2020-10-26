@@ -8,7 +8,7 @@ ELEC 3500: [Digital Electronics](https://github.com/ghassanarnouk/Carleton-Uni/t
 ELEC 3509: [Electronics II](https://github.com/ghassanarnouk/Carleton-Uni/tree/ELEC-3509)\
 SYSC 3006: [Computer Organization](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-3006)
 
-SYSC 4001: [Operating Systems](Carleton-Uni/tree/SYSC-4001)\
+SYSC 4001: [Operating Systems](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-4001)\
 SYSC 4505: [Automatic Control Systems](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-4505)
 
 ## Contributing
