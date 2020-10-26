@@ -1,0 +1,34 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Simple Processing System Circuit}{1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Discussion Questions}{1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1}In your own words, describe how SEL and LD are used to control Read and Write operations on the RAM.}{1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2}Then based on your observations from 1-1 (a), design and implement some simple logic using only a few logic Gates to interface the WordR and WordW signals from the Control FSM to the SEL and LD signals to implement Read and Write operations. Show a screenshot of your design here.}{1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces RAM Circuit Implementation}}{1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Circuit Wiring}{2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Simple Processing System Circuit}}{2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Information contained within the 16 bits}}{2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}ROM FSMs}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.1}Fill in a next state table (ROM table) for the following RTL.}{3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces R10 $\leftarrow $ R1 OR R2}}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.2}Fill in a next state table (ROM table) for the following RTL.}{3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces R11 $\leftarrow $ R2 - R10}}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3}Fill in a next state table (ROM table) for the following RTL.}{3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces R12 $\leftarrow $ NOT(R11)}}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.4}Fill in a next state table (ROM table) for the following RTL.}{3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces R13 $\leftarrow $ R0 + R12}}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Execute the first RTL starting at state E0 and finishing at state E2. Do the same for the rest and observe their execution to make sure that there is no errors.}{4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.1}After finishing all executions, Log the execution of the sequence on your implementation and show the results here.}{4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Simulation Log of the Simple Processing Circuit}}{4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.2}After the executions of R11 ← R2 – R10, what is the value of R11 (in decimal)?}{4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.3}What does the operations R12 ← NOT (R11) and R13 ← R0 + R12 accomplish (think about what does the value obtained in R13 represent in relation to R11 and R12, and why)?}{4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Generalized Processing System Circuit}{5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Circuit Wiring}{5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Generalized Processing System Circuit}}{5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Complete the following next state table for the Control FSM that executes every instruction.}{5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Control FSM}}{5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Complete the Encoded Instruction Table for same 4 instructions of the Part I of this lab.}{6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Encoded Instruction}}{6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}To execute the first operation, poke its 16-bit encoder value into IR, and then poke the Toggle Switch to advance the FSM through the operation. Do the same for the rest and observe their execution to make sure that there is no errors.}{6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}After finishing all executions, Log the execution of the sequence on your implementation and show the results here.}{6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Simulation Log of the Generalized Processing Circuit}}{6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}Compare the results obtained here to Part I, they should be same. So, what is the advantage of the generalized machine in part II (here) over the simple machine of part I (above)?}{6}\protected@file@percent }

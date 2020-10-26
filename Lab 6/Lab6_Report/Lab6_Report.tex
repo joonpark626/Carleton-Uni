@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+
+\pagestyle{fancy}
+\graphicspath{ {./img/} }
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\vspace{1cm}
+			{\LARGE\textbf{Implementing and Testing Logisim Circuit using the Assembler and Debugger}}
+
+			\vspace{1.5cm}
+			\textbf{\large Ghassan Arnouk}\\
+			
+			\vspace{1cm}
+			\large SYSC 3006A\\
+			\large Summer 2020\\
+			\large Lab 6 Report\\
+			\large Group 1\\
+			
+						
+			\vspace{2cm}
+			\textbf{Instructor:} Michel Sayde\\
+			
+			\vspace{0.1cm}
+			\textbf{TA:} Khalid Almahrog\\
+			
+			\vspace{0.1cm}
+			\textbf{Submitted:} 2020/06/16\\			
+		\end{center}
+	\end{titlepage}
+	
+	\lhead{Ghassan Arnouk (Group 1)}
+	\rhead{Implementing and Testing Logisim Circuit}
+	\pagebreak
+	
+	\section{Fragment 1}
+	\subsection{Complete the Fragment1SRC code by replacing all occurrences of “***” with the necessary details. Do not add any additional instructions. Then Submit your completed (working)	Fragment1SRC code.}
+	Please find \textbf{\emph{Fragment1-SRC-myAnswers.txt}} file in \textbf{Lab 6} repository.
+	
+	\section{Fragment 2}
+	\subsection{Complete the Fragment2SRC code by replacing all occurrences of “***” with the	necessary details. Do not add any additional instructions. Then Submit your completed (working)	Fragment2SRC code}
+	Please find \textbf{\emph{Fragment1-SRC-myAnswers.txt}} file in \textbf{Lab 6} repository.
+	
+	\subsection{Describe the difference between the Bcc and BLcc instructions, and why the difference is important.}
+	BLcc is used to call subroutines, it saves the return address in R14 (the Link Register) before branching (R14 $\leftarrow$ R15).
+	
+	\subsection{Briefly describe the programming conventions associated with subroutines that are used in this course.}
+	R0 – R3 will be used to pass parameter arguments during invocation. R0 will be used for the first (leftmost) parameter, R1 for the second parameter, etc. Using only 4 (max.) registers to pass arguments limits the number of parameters that a subroutine can have. This course will not be concerned with how to pass more than 4 arguments (it would involve using some memory to store the extra arguments). R0 will also be used to return the return value.
+\end{document}

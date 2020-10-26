@@ -1,0 +1,240 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+
+\pagestyle{fancy}
+\graphicspath{ {./img/} }
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{xcolor}
+\usepackage{listings}
+
+\definecolor{mGreen}{rgb}{0,0.6,0}
+\definecolor{mGray}{rgb}{0.5,0.5,0.5}
+\definecolor{mPurple}{rgb}{0.58,0,0.82}
+\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{CStyle}{
+	backgroundcolor=\color{backgroundColour},   
+	commentstyle=\color{mGreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{mGray},
+	stringstyle=\color{mPurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	language=C
+}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\vspace{1cm}
+			{\LARGE\textbf{Programming a Given Computer System}}
+
+			\vspace{1.5cm}
+			\textbf{\large Ghassan Arnouk}\\
+			
+			\vspace{1cm}
+			\large SYSC 3006A\\
+			\large Summer 2020\\
+			\large Lab 5 Report\\
+			\large Group 1\\
+			
+						
+			\vspace{2cm}
+			\textbf{Instructor:} Michel Sayde\\
+			
+			\vspace{0.1cm}
+			\textbf{TA:} Khalid Almahrog\\
+			
+			\vspace{0.1cm}
+			\textbf{Submitted:} 2020/06/11\\			
+		\end{center}
+	\end{titlepage}
+	
+	\lhead{Ghassan Arnouk (Group 1)}
+	\rhead{Programming a Given Computer System}
+	\pagebreak
+	
+	\section{Fragment 1}
+	\subsection{What is the high-level objective (purpose) of the code fragment? Explain the objective in terms of the net effect of the fragment on the variables it modifies.}
+	The high-level objective of the code fragment is to:
+	\begin{itemize}
+		\item Create an array of size three
+		\item Fill the array with the integers 20, -4, and 0
+		\item Check that the array size is correct
+		\item And finally, add the number 10 to each integer in the array
+	\end{itemize}
+	
+	\subsection{Write C-like pseudocode that accomplishes the same objective (see lab statement for more details).}
+	
+	\begin{lstlisting}[style=CStyle]
+	int Arr_Size = 3;
+	int Arr[Arr_Size] = {20, -4, 0};
+	int R2, R3, R5;
+	
+	R2 = *Arr[0];
+	R3 = Arr_Size;
+	
+	if (R3 == 0){
+		end;
+	}
+	
+	R3 = R3-1;
+	
+	while (R3 >= 0){
+		R5 = Arr[R3];
+		R5 = R5+10;
+		Arr[R3] = R5;
+		R3 = R3-1;
+	}	\end{lstlisting}
+	
+	\pagebreak
+	
+	\subsection{Starting after the SkipOverVariables declaration, add comments to the instructions that document what is being done ... the comments should be at the level of the pseudocode objective, not at the RTL level.}
+	
+	\begin{lstlisting}[style=CStyle]
+	B SkipOverVariables
+	
+		; Arr is an array of 3 words
+	Arr_Size DCD #3
+	Arr
+		DCD #20 ; first (0 - th)element of Arr = 20
+		DCD #-4 ; second (1 - th)element of Arr = -4
+		DCD #0  ; third (2 - th)element of Arr = 0
+	
+	SkipOverVariables
+	MOV R2, Arr            ; // R2 is initialized to the address head of the array
+	LDR R3, [ Arr_Size ]   ; // Loading the arr_size (3) and storing it in R3
+	CMP R3, #0             ; // check if the content of R3 is equal to zero
+	BEQ Done               ; // if the content of R3 is zero, branch is done
+	SUB R3, R3, #1         ; // subtract 1 from the content of R3 and then store it in R3
+
+	Loop                   ; // label
+	LDR R5, [R2, R3]       ; // adding the content of R2 and R3 which makes an address which 														will the content of R5 be stored in
+	ADD R5, R5, #10        ; // adding 10 to the content of R5
+	STR R5, [R2, R3]       ; // storing the content of R5 in the address of the sum of 																	addresses of R2 and R3 which is R3
+	SUB R3, R3, #1         ; // subtract 1 from the content of R3 and then store it in R3
+	BPL Loop               ; // if the negative is flagged in the ALU, the loop will be broken 
+
+	Done
+	DCD #0xFFFFFFFF 	  	 ; breakpoint instruction	\end{lstlisting}
+	
+	\subsection{When the fragment is executed, how many instructions will be executed (including the breakpoint instruction)?}
+	Branch to SkipOverVariables: 1\\
+	SkipOverVariables: 5\\
+	Loop: 5 + 5 + 5 = 15\\
+	Done: 0 instructions for breakpoint (fetched, but never executed)\\
+	\textbf{Total} = 1 + 5 + 15 + 0 = 21 instructions
+	
+	\subsection{When assembled, how many words of memory will the fragment occupy?}
+	Total = 16 words of main memory will be needed for fragment1
+	
+	\pagebreak
+	
+	\subsection{Assemble and run Fragment 1. To validate running the fragment in your lab report, submit the contents of Main Memory RAM before and after executing the fragment. (Hint: right-click on RAM Save Image ...).}
+	
+	Before execution:\\
+	\fbox{\begin{minipage}{\linewidth}
+		\textbf{V2.0 raw}\\
+		80F00004   00000003   00000014   FFFFFFFC   00000000   23200002\\
+		333FFFFA   57300000   80100006   22330001   32523000   2155000A\\
+		36523000   22330001   806FFFFB   FFFFFFFF		
+	\end{minipage}}
+
+	\vspace{0.5cm}
+
+	After execution:\\
+	\fbox{\begin{minipage}{\linewidth}
+		\textbf{V2.0 raw}\\
+		80f00004                 3               1e                 6                 a 23200002\\
+		333ffffa    57300000  80100006 22330001 32523000 2155000a\\
+		36523000 22330001 806ffffb     ffffffff
+	\end{minipage}}\\
+
+	\pagebreak
+
+	\section{Fragment 2}	
+	\subsection{complete the code by replacing all occurrences of “***” with the necessary details and execute the processing for the data values in the template. Do not add additional instructions. Submit your completed (working) SRC fragment. This part of the lab will be easier to complete in the lab if some options for the “***” entries have been considered prior to arriving for the lab.}
+	(Edit your final completed Fragment2 SRC code here)
+	\begin{lstlisting}[style=CStyle]	
+		B    SkipOverVariables
+	
+	Arr_Size DCD   #5   ; Arr is an array of 5 words
+	Arr  
+		DCD  #3          ; first (0-th) element of Arr
+		DCD  #-4
+		DCD  #0
+		DCD  #-8
+		DCD  #6 
+	
+	SkipOverVariables
+	
+			; for ( R11 = 0; R11 < Arr_size; R11++ )    
+			; R10 = Arr_Size
+		LDR R10, [ Arr_Size ]   
+		MOV  R11, #0       ; R11 is index into array, start with index = 0
+	
+	for_test              ; test whether to enter loop
+		CMP  R11, R10
+		BEQ  end_for       ; if fail test, then finished for loop 
+	
+			; {   ; start of for loop body
+			; if ( Arr[ R11 ] < 0 )
+			; for access to Arr: R9 = address of Arr
+		MOV  R9, Arr
+		LDR  R5, [ R9 , R11 ]     ; R5 = Arr[ R11 ]
+		CMP  R5, #0
+		BEQ  end_if   
+	
+			;   {  Arr[ R11 ] = abs( Arr[ R11 ] )     ; abs() is absolute value  
+			; need value 0 for calculating abs
+		MOV  R6, #0        ; R6 = 0
+		SUB  R5, R6, R5    ; initial value in R5 is negative: R5 = 0 - R5 = abs( R5 )
+		STR  R5, [R9,R11]  ; store Arr[ R11 ]
+			;   }
+	end_if
+	
+			; }    ; end of for loop body
+			; adjust Arr index
+		ADD   R11, R11, #1
+		BPL   for_test
+	
+	end_for
+		DCD  #0xFFFFFFFF   ; breakpoint instruction	\end{lstlisting}
+		
+	\subsection{Assemble and run Fragment 2. To validate running the fragment in your lab report, submit the contents of Main Memory RAM before and after executing the fragment. (Hint: right-click on RAM → Save Image ...).}
+	
+	Before execution:\\
+	\fbox{\begin{minipage}{\linewidth}
+		\textbf{V2.0 raw}\\
+		80F00006   00000005   00000003   FFFFFFFC   00000000   FFFFFFF8\\
+		00000006   33AFFFF9   23B00000   47BA0000   80100009   23900002\\
+		3259B000   57500000   80100003   23600000   02565000   3659B000\\
+		21BB0001   806FFFF5   FFFFFFFF		
+	\end{minipage}}
+	
+	\vspace{0.5cm}
+	
+	After execution:\\
+	\fbox{\begin{minipage}{\linewidth}
+		\textbf{V2.0 raw}\\
+		80f00006                  5      fffffffd                 4                 0                 8\\      
+		fffffffa           33affff9 23b00000 47ba0000 80100009 23900002\\
+		3259b000 57500000 80100003 23600000\\
+		2565000 3659b000 21bb0001     806ffff5 ffffffff
+	\end{minipage}}\\
+\end{document}
