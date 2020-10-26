@@ -1,24 +1,27 @@
-# Carleton-Uni
+# [ELEC3500] Digital Electronics
 
-:books: My Assignments, Laboratories, and Lab Reports for my Electronics, Computer Systems, and Software courses :fire:
+Digital circuit design using verilog and logic synthesis, the electronic properties of logic gates, electrical interfacing between logic families, asynchronous to synchronous interfacing, clock distribution and timing, VLSI design options. Students implement substantial circuits with field-programmable gate arrays.
 
 ## Table of contents
 
-ELEC 3500: [Digital Electronics]()\
-ELEC 3509: [Electronics II]()\
-SYSC 3006: [Computer Organization]()\
-SYSC 4001: [Operating Systems]()\
-SYSC 4505: [Automatic Control Systems](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-4505)
+### PSpice Labs
 
-## Contributing
+Lab 1: [CMOS Devices](/PSpice%20Labs/Lab%201%20MOS%20Devices)\
+Lab 2: [Combinational CMOS Logic](/PSpice%20Labs/Lab%202%20Combinational%20CMOS%20Logic)\
+Lab 3: [CMOS Sequential Logic Gates](/PSpice%20Labs/Lab%203%20CMOS%20Sequential%20Logic%20Gates)
 
-When contributing to this repository, please **first discuss** the changes you wish to make via issue, email, or any other method with the owners of this repository **before** making a change.
+### Verilog Labs
 
-## Authors
+Verilog notes: [Introduction to Verilog](/Verilog%20Labs/Verilog_Tutorial.md)\
+Verilog cheat sheet: [Summary of Synthesisable Verilog](/Verilog%20Labs/Verilog_CheatSheet.pdf)
 
-* **Ghassan Arnouk**
+Lab 1: [Verilog Lab 1]()\
+Lab 2: [Verilog Lab 2]()\
+Lab 3: [Verilog Lab 3]()\
+Lab 6: [Verilog Lab 6]()\
+Lab 8: [Verilog Lab 8]()\
+Lab 9: [Verilog Lab 9]()\
+Lab 10: [Verilog Lab 10]()\
+Lab 11: [Egg Timer Lab]()
 
-## License
-
-***All rights are reserved*** and this repository is ***not*** Open Source or Free.
-You ***cannot*** modify or redistribute this repository without ***explicit*** permission from the copyright holder.
+Tcl scripting: [Tcl Scripting in Vivado](/Verilog%20Labs/README.md)
