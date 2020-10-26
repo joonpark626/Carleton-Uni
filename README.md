@@ -1,15 +1,22 @@
-# Carleton-Uni
+# [SYSC3600] Systems and Simulations
 
-:books: My Assignments, Laboratories, and Lab Reports for my Electronics, Computer Systems, and Software courses :fire:
+Properties of linear systems.
+Linear dynamic models of engineering systems.
+Applications of the Laplace transform.
+Transfer functions.
+Block diagrams.
+Frequency and time response.
+System simulation with digital computers.
 
 ## Table of contents
 
-ELEC 3500: [Digital Electronics](https://github.com/ghassanarnouk/Carleton-Uni/tree/ELEC-3500)\
-ELEC 3509: [Electronics II](https://github.com/ghassanarnouk/Carleton-Uni/tree/ELEC-3509)\
-SYSC 3006: [Computer Organization](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-3006)
+Lab 1: [Simulation of a 1st Order System](/Lab%201)\
+Lab 2: [Servo System Simulation](/Lab%202)\
+Lab 3: [Control of an Inverted Pendulum](/Lab%203)
 
-SYSC 4001: [Operating Systems](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-4001)\
-SYSC 4505: [Automatic Control Systems](https://github.com/ghassanarnouk/Carleton-Uni/tree/SYSC-4505)
+## Prerequisites
+
+Make sure you have installed [Simulink Matlab](https://www.mathworks.com/products/matlab.html) on your development machine for ***transfer functions simulation***.
 
 ## Contributing
 
